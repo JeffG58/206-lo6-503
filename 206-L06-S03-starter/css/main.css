@@ -402,30 +402,41 @@ section#justify-content-section {
 /* align-items */
 section#align-items-section {
   /* place your code here */
+  display:flex;
+  justify-content:center;
 }
 
 .align-items-center-parent-container {
   /* place your code here */
+  display:flex;
+  justify-content:center;
   justify-content: space-evenly;
 }
 
 .align-items-stretch-parent-container {
   /* place your code here */
+  display:flex;
+  justify-content:center;
   justify-content: space-evenly;
 }
 
 .align-items-baseline-parent-container {
   /* place your code here */
+  display:flex;
+  justify-content:center;
   justify-content: space-evenly;
 }
 
 .align-items-flex-start-parent-container {
   /* place your code here */
+  display:flex;
+  justify-content:center;
   justify-content: space-evenly;
 }
 
 .align-items-flex-end-parent-container {
-  /* place your code here */
+  /* place your code here */ display:flex;
+  justify-content:center;
   justify-content: space-evenly;
 }
 
@@ -443,6 +454,7 @@ section#flex-wrap-section {
 
 .flex-wrap-wrap-parent-container {
   /* place your code here */
+  display:flex;
   justify-content: space-evenly;
 }
 
@@ -531,40 +543,55 @@ section#gap-section {
 /* flex-direction section */
 section#flex-direction-section {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
+
 }
 
 .column-justify-content-center-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .column-justify-content-space-between-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 .column-justify-content-space-around-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .column-justify-content-space-evenly-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .column-justify-content-flex-start-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
 .column-justify-content-flex-end-parent-container {
   /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
 }
@@ -573,36 +600,50 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
-  /* place your code here */ 
+  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap; 
 }
 
 .flex-flow-row-nowrap-parent-container {
   /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-parent-container {
   /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-reverse-parent-container {
   /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-nowrap-parent-container {
   /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-parent-container {
   /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-reverse-parent-container {
   /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
